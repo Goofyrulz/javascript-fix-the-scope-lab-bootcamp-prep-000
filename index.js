@@ -23,8 +23,8 @@ var funkyFunction = function() {
   }
 }
 function theFunk() {
-  var theFunk = funkyFunction
-  return "FUNKY!"
+  var theFunk = `FUNKY!`
+  return theFunk
 }
 
 // We want to set theFunk equal to "FUNKY!" using our funkyFunction.
